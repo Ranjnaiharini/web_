@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.menu-section {
+    margin-top: 20px;
+}
+
+.menu-item {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.menu-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.menu-item-content {
+    text-align: right;
+}
+
+.menu-item h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.menu-item p {
+    margin: 5px 0;
+}
+
+.reservation-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.reservation-form label {
+    margin-top: 10px;
+}
+
+.reservation-form input[type="text"],
+.reservation-form input[type="email"],
+.reservation-form input[type="date"],
+.reservation-form input[type="time"],
+.reservation-form input[type="number"] {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.reservation-form input[type="submit"] {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
